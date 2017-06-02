@@ -29,7 +29,7 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/
       },{
-        test: /\.{scss}$/,
+        test: /\.(scss)$/,
         use: [{
           loader: 'style-loader'
         },{

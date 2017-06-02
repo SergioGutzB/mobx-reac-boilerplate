@@ -1,0 +1,7 @@
+.message {
+  color: red;
+}
+
+.input {
+  composes: message;
+}
